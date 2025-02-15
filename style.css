@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.text {
+  font-size: 20px;
+  color: pink;
+}
+
+.tap-text {
+  font-size: 16px;
+  color: gray;
+}
+
+.final-text {
+  font-size: 18px;
+  color: darkred;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}

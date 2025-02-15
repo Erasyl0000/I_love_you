@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Открытка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Первая страница -->
+  <div class="cover" onclick="showSecondPage()">
+    <p class="text">Открой, чтобы посмотреть, моя любимая ❤️</p>
+    <img src="cover.jpg" alt="Обложка">
+  </div>
+
+  <!-- Вторая страница -->
+  <div id="page2" class="hidden">
+    <p class="text">Я тебя сильно люблю ❤️</p>
+    <img src="inside1.jpg" alt="Фото внутри">
+    <p class="tap-text">Тапни два раза</p>
+  </div>
+
+  <!-- Третья страница -->
+  <div id="page3" class="hidden">
+    <p class="text">Вот тут мы впервые играем в майн ❤️</p>
+    <img src="inside2.jpg" alt="Фото 2">
+    <p class="tap-text">Тапни ещё раз</p>
+  </div>
+
+  <!-- Четвёртая страница -->
+  <div id="page4" class="hidden">
+    <p class="text">А тут мы познакомились ❤️</p>
+    <img src="inside3.jpg" alt="Фото 3">
+    <p class="final-text">
+      Я тебя очень сильно люблю, Поля, и сильно тобой дорожу. Ты моя любовь. 
+      Я тебя сильно ценю и люблю. Спасибо за всё, моя любимая ❤️
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
